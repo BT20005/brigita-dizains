@@ -41,6 +41,13 @@ html, body{
   left: 10px;
   opacity: 60%;
 }
+  #bottom-down{
+  position: absolute;
+  text-align: left;
+  bottom: 0;
+  left: 10px;
+  opacity: 80%;
+}
 #card {
   position: absolute;
   color: white;
@@ -92,7 +99,6 @@ html, body{
  }
  #bilde-mazais{
   left: 0;
-
   top: 0px;
   opacity: 50%;
  }
@@ -216,7 +222,7 @@ html, body{
    text-align: center;
  }
   #list-mazais{
-  background-color: rgba(153, 153, 153, 0.7);
+  background-color: rgba(153 153 153/0.7);
     font-size: 30px;
     line-height: 35px;
     text-transform: lowercase;
@@ -228,6 +234,7 @@ html, body{
   }
   #list-mazais-xs{
   background-color: rgba(153 153 153/1);
+  z-index:10;
   }
   #list-mazais-xs-teksts{
     background-image: url("bildes/Paper_1.jpg");
@@ -265,9 +272,9 @@ html, body{
   transform: rotate(-25deg);
  }
   #valodas-mazais{
-  margin-left: -10px;
+  margin-left: 20px;
   padding-bottom: 20px;
-  opacity; 100%;
+  opacity: 0.8;
  }
  #valodas-teksts{
    position: absolute;
@@ -370,6 +377,10 @@ html, body{
          width: 50px;
          height: 50px;
    }
+       #tel-teksts{
+       margin-top: 50px;
+       }
+   }
   @media (max-width: 400px) {
     .btn{
        width: 50px;
@@ -381,9 +392,7 @@ html, body{
     font-size: 28px;
     }
   }
-  #bottom{
-      color: rgba(0 0 0/ 1 );
-      }
+
 
 
 
