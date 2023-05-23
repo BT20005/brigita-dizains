@@ -1,0 +1,390 @@
+html, body{
+   width: 100%;
+   height: 100%;
+   }
+   body{
+   background-color: black;
+   color: white;
+   font-family: 'SF Pro Text';
+   font-style: normal;
+   font-weight: 700;
+   background-size: auto auto;
+   background: linear-gradient(180deg, #838080 0%, #1D1D1D 100%);
+  }
+
+  #nosaukums{
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 20px;
+  }
+
+  h2{
+    font-size: 48px;
+  }
+  p{
+    text-align: left;
+  }
+  hr{
+    border: none;
+    border-top: 3px double #000;
+    color: #000;
+    overflow: visible;
+    text-align: center;
+    height: 10px;
+    padding-bottom: 50px;
+  }
+
+  #bottom {
+  position: absolute;
+  text-align: left;
+  bottom: 0;
+  left: 10px;
+  opacity: 60%;
+}
+#card {
+  position: absolute;
+  color: white;
+  text-align: left;
+  bottom: 0;
+  left: 10px;
+  opacity: 60%;
+}
+#ramis{
+  position: relative;
+  width: 800px;
+  height: 800px;
+  top: 0px;
+  bottom: 0px;
+  background: #F3F3F3;
+  transform: rotate(25deg);
+  overflow: hidden;
+}
+#ramis-teksts{
+  position: relative;
+  width: 800px;
+  height: 800px;
+  top: 0px;
+  bottom: 0px;
+  background: #F3F3F3;
+
+  overflow: hidden;
+}
+#ramis-mazais{
+  margin-right: 10px;
+  margin-bottom:150;
+}
+
+ #papirs {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  left: 0px;
+  top: 0px;
+  opacity: 30%;
+ }
+ #bilde{
+  position: absolute;
+  width: 220px;
+  height: 844px;
+  left: -15px;
+  top: 0px;
+  object-fit: contain;
+ }
+ #bilde-mazais{
+  left: 0;
+
+  top: 0px;
+  opacity: 50%;
+ }
+ #menu{
+  position: absolute;
+  width: 350px;
+  height: 842px;
+  left: 190px;
+  top: 0px;
+  opacity: 90%;
+ }
+ #menu-teksts{
+   position: absolute;
+   color:rgba(94 91 91);
+   width: 350px;
+   height: 842px;
+   left: 190px;
+   top: 150px;
+  }
+   #menu-teksts-1{
+     color:rgba(0 0 0 / 0.8);
+     width: 350px;
+     height: 842px;
+     margin-top: 50px;
+
+    }
+ .btn{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   color: rgba(255 100 100);
+   font-size: large;
+   font-weight: 700;
+ }
+ #vairak{
+    margin-left: -20px;
+    border: none;
+    background-color: rgba(255 115 115/ 1 );
+    color: rgb(94, 91, 91);
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 10px;
+ }
+ .visually{
+   border: solid rgb(94, 91, 91);;
+   border-width: 0 5px 5px 0;
+   display: inline-block;
+   padding: 7px;
+     transform: rotate(135deg);
+     -webkit-transform: rotate(135deg);
+ }
+  .visually-xs{
+    border: solid rgb(94, 91, 91);;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 5px;
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+  }
+   .visually-xs-teksts{
+     border: solid rgb(94, 91, 91);;
+     border-width: 0 5px 5px 0;
+     display: inline-block;
+     padding: 5px;
+       transform: rotate(135deg);
+       -webkit-transform: rotate(135deg);
+   }
+ .dropstart{
+ color: rgb(153, 153, 153);
+ }
+ #bulta{
+ border: none;
+    background-color: rgb(153, 153, 153);
+    color: rgb(153, 153, 153);
+    font-size: large;
+    font-weight: 700;
+    margin-bottom: 10px;
+ }
+ #vairak-xs{
+     margin-left: -20px;
+     border: none;
+     background-color: rgba(255 115 115/ 0.9 );
+     color: rgb(94, 91, 91);
+     font-size: large;
+     font-weight: 700;
+     margin-bottom: 10px;
+  }
+  #bulta-xs{
+     border: none;
+     background-color: rgb(153, 153, 153);
+     color: rgb(153, 153, 153);
+     font-size: large;
+     font-weight: 700;
+     margin-bottom: 10px;
+  }
+  #vairak-xs-1{
+       margin-left: -20px;
+       border: none;
+       background-color: rgba(255 115 115/ 0.9 );
+       color: rgb(94, 91, 91);
+       font-size: large;
+       font-weight: 700;
+       margin-bottom: 10px;
+    }
+    #bulta-xs-1{
+       border: none;
+       background-color: rgb(153, 153, 153);
+       color: rgb(153, 153, 153);
+       font-size: large;
+       font-weight: 700;
+       margin-bottom: 10px;
+    }
+ #list{
+   font-size: 24px;
+   line-height: 29px;
+   text-transform: lowercase;
+   color: rgb(0 0 0/ 1);
+   size: 14px;
+   text-decoration: none;
+   list-style-type: none;
+   text-align: center;
+ }
+  #list-mazais{
+  background-color: rgba(153, 153, 153, 0.7);
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: lowercase;
+    color: rgb(0 0 0/ 1);
+    size: 14px;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+  }
+  #list-mazais-xs{
+  background-color: rgba(153 153 153/1);
+  }
+  #list-mazais-xs-teksts{
+    background-image: url("bildes/Paper_1.jpg");
+  }
+   #list-mazais-xs-1{
+      background-image: url("bildes/Paper_1.jpg");
+    }
+ .button-white{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   border: none;
+   background-color: white;
+   color: black;
+   font-size: large;
+   font-weight: 700;
+   margin-bottom: 10px;
+ }
+ .button-dark{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   border: none;
+   background-color: rgba(255 100 100);
+   color: black;
+   font-size: large;
+   font-weight: 700;
+   margin-bottom: 10px;
+ }
+ #valodas{
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 130px;
+  left: 650px;
+  transform: rotate(-25deg);
+ }
+  #valodas-mazais{
+  margin-left: -10px;
+  padding-bottom: 20px;
+  opacity; 100%;
+ }
+ #valodas-teksts{
+   position: absolute;
+   bottom: 0;
+   margin-bottom: 80px;
+   left: 640px;
+  }
+ #LV{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   border: none;
+   background-color: rgb(153, 153, 153);
+   color: rgb(233, 230, 230);
+   font-size: smaller;
+   font-weight: 700;
+   margin-bottom: 10px;
+ }
+  #LV-mazais{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   border: none;
+   background-color: rgba(153 153 153/ 1);
+   color: rgb(233, 230, 230);
+   font-size: smaller;
+   font-weight: 700;
+   margin-bottom: 10px;
+ }
+ #EN{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   border: none;
+   background-color: rgba(255 115 115/ 0.9 );
+   color: rgb(94, 91, 91);
+   font-size: smaller;
+   font-weight: 700;
+   margin-bottom: 10px;
+ }
+ #EN-mazais{
+   width: 35px;
+   height: 35px;
+   border-radius: 50%;
+   border: none;
+   background-color: rgba(255 115 115/ 1 );
+   color: black;
+   font-size: smaller;
+   font-weight: 700;
+   margin-bottom: 10px;
+ }
+ a:link{
+  color: rgb(94, 91, 91);
+  text-decoration: none;
+ }
+ a:visited{
+  color: rgb(94, 91, 91);
+  text-decoration: none;
+ }
+ a:hover{
+  color: rgb(94, 91, 91);
+  text-decoration: none;
+ }
+ a:active{
+  color: rgb(94, 91, 91);
+  text-decoration: none;
+ }
+ button#EN.button:hover{
+  background-color: rgba(255 115 115/ 1 );
+ }
+ button#EN-mazais.button:hover{
+  background-color: rgba(255 115 115/ 1 );
+ }
+
+  @media only screen and (max-width: 1220px) {
+  #ramis, #ramis-teksts{
+		width:50%;
+  }
+  @media (max-width: 1220px){
+    #bulta-xs.btn, #bulta-xs-1.btn, #vairak-xs.btn, #vairak-xs-1.btn{
+      width: 60px;
+      height: 60px;
+    }
+  }
+  @media (max-width: 992px) {
+  body{
+        background-color: rgba(255, 255, 255, 0.9);
+		background-image: url("bildes/Paper_1.jpg");
+		background-opacity; 80%;
+		color: rgba(0 0 0/0.8);
+    }
+  }
+  media (max-width: 992px) {
+  #list-mazais-xs-teksts{
+       background-color: rgba(153, 153, 153, 0.7);
+  }
+  }
+   @media (max-width: 576px) {
+      .btn{
+         width: 50px;
+         height: 50px;
+   }
+  @media (max-width: 400px) {
+    .btn{
+       width: 50px;
+       height: 50px;
+       font-size: large;
+       font-weight: 800;
+    }
+    h2{
+    font-size: 28px;
+    }
+  }
+  #bottom{
+      color: rgba(0 0 0/ 1 );
+      }
+
+
+
+
