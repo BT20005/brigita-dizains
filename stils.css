@@ -23,6 +23,9 @@ html, body{
   }
   p{
     text-align: left;
+    line-height: 1.6;
+    font-size: 17px;
+    font-weight: lighter;
   }
   hr{
     border: none;
@@ -113,10 +116,10 @@ html, body{
  #menu-teksts{
    position: absolute;
    color:rgba(94 91 91);
-   width: 350px;
+   width: 365px;
    height: 842px;
    left: 190px;
-   top: 150px;
+   top: 130px;
   }
    #menu-teksts-1{
      color:rgba(0 0 0 / 0.8);
